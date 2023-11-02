@@ -1,0 +1,71 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+button:hover {
+  font-weight: bold;
+}
+.button-shop,
+.button-sale,
+.button-hot,
+.button-filter {
+  background-color: #1e2832;
+  color: #fff;
+}
+.button-account {
+  width: 70px;
+  height: 20px;
+  gap: 6px;
+  color: #1e2832;
+  font-family: "Roboto-Regular";
+  font-size: 12px;
+}
+.button-shop {
+  width: 120px;
+  height: 40px;
+  gap: 8px;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+}
+.button-filter {
+  font-family: "OpenSans-Regular";
+  font-size: 12px;
+  width: 72px;
+  height: 22px;
+  gap: 4px;
+}
+.button-sale,
+.button-hot {
+  width: 35px;
+  height: 16px;
+  font-family: "OpenSans-SemiBold";
+  font-size: 8px;
+  text-transform: uppercase;
+  top: 6%;
+  left: 0;
+}
+.button-hot {
+  background-color: var(--primary, #ff6f61);
+}
+.button-colleciton {
+  width: 160px;
+  height: 40px;
+  font-family: "Roboto-Regular";
+  font-size: 20px;
+  background-color: #fff;
+  color: #1e2832;
+}
+a {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "OpenSans-SemiBold";
+  font-size: 12px;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  font-weight: bolder;
+}
